@@ -1,12 +1,11 @@
 import os
 import requests
+from config import username, token, path
 
 # Variables
-path = "/Users/riccardovandra/T-Shaped Player/Development/Projects/"
 variable = os.environ["myvar"]
 readme = "readme.md"
-username =  # insert your username here
-token =  # insert personal token here
+
 
 payload = {
     "name": variable

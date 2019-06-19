@@ -1,11 +1,11 @@
 Simple workflow for Python
 
-[x] Understand how to create a custom command
-[x] Create a new folder in T-Shaped/Development/Project
-[x] Navigate to that folder
-[x] Create a readme file (readme.md)
-[x] Login with git
-[x] Create an initial git commit
+1. Understand how to create a custom command
+2. Create a new folder in T-Shaped/Development/Project
+3. Navigate to that folder
+4. Create a readme file (readme.md)
+5. Login with git
+6. Create an initial git commit
 
 Common Problems:
 

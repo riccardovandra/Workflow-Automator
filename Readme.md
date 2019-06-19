@@ -1,7 +1,7 @@
 Simple workflow for Python
 
 1. Understand how to create a custom command
-2. Create a new folder in T-Shaped/Development/Project
+2. Create a new folder in your project folder
 3. Navigate to that folder
 4. Create a readme file (readme.md)
 5. Login with git

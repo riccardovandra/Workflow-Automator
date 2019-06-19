@@ -2,8 +2,8 @@ function create() {
     #create a variable for S1
     #Variables
     myvar=$1
-    devfolder='/Users/riccardovandra/T-Shaped Player/Development/Projects'
-    pythonWorkflow='/Users/riccardovandra/T-Shaped Player/Development/Projects/Python Workflow'
+    devfolder= #Insert Project Path Here
+    pythonWorkflow= #Insert Path where files.py is going to be
 
 
     export myvar
@@ -12,7 +12,7 @@ function create() {
     cd "$devfolder"
     cd "$1"
     git init
-    git remote add origin https://github.com/riccardovandra/$1.git
+    git remote add origin https://github.com/#yourusername/$1.git
     git add .
     git commit -m "initial commit"
     git push -u origin master

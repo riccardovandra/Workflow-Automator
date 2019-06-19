@@ -2,8 +2,8 @@ function create() {
     #create a variable for S1
     #Variables
     myvar=$1
-    devfolder='/Users/riccardovandra/T-Shaped Player/Development/Projects'
-    pythonWorkflow='/Users/riccardovandra/T-Shaped Player/Development/Projects/Python Workflow'
+    devfolder= #Insert Project Path Here
+    pythonWorkflow= #Insert Path where files.py is going to be
 
 
     export myvar

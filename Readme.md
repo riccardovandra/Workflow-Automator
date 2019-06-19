@@ -1,12 +1,13 @@
 Simple workflow for Python
 
-[x] Understand how to create a custom command
-[x] Create a new folder in T-Shaped/Development/Project
-[x] Navigate to that folder
-[x] Create a readme file (readme.md)
-[x] Login with git
-[x] Create an initial git commit
+1. Understand how to create a custom command
+2. Create a new folder in your project folder
+3. Navigate to that folder
+4. Create a readme file (readme.md)
+5. Login with git
+6. Create an initial git commit
 
-Common Problems:
+Usage:
 
-1. names with a space cannot be found easily - fix needed
+- Dowload Repo
+- Follow this guide to insert .my_custom_commands.sh in the terminal: https://medium.com/devnetwork/how-to-create-your-own-custom-terminal-commands-c5008782a78e

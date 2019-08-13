@@ -12,4 +12,6 @@ function create() {
     cd "$devfolder"
     cd "$1"
     code .
+    sleep 3
+    pipenv shell
 }

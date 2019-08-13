@@ -6,6 +6,7 @@ Simple workflow for Python
 4. Create a readme file (readme.md)
 5. Login with git
 6. Create an initial git commit
+7. Start a virtual environment using pipenv
 
 Usage:
 

@@ -5,6 +5,7 @@ from subprocess import call
 
 # Variables
 variable = os.environ["myvar"]
+parameters = os.environ["parameters"]
 readme = "readme.md"
 
 

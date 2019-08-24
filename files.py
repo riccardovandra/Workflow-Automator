@@ -36,10 +36,11 @@ def create_readme():
 def create_repo():
     createRepo = requests.post('https://api.github.com/user/repos',
                             auth=(username, token), json=payload)
-
+                            
     repo_dict = createRepo.json()
     get_git_url = repo_dict['html_url']
 
+def git_upload():
     call('git init', shell=True)
     call('git remote add origin ' + get_git_url + '.git', shell=True)
     call('git add .', shell=True)
@@ -49,7 +50,9 @@ def create_repo():
 if parameters == "-nogithub":
     create_and_move_folder()
     create_readme()
+    create_repo()
 else:
     create_and_move_folder()
     create_readme()
     create_repo()
+    git_upload()
